@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Teko:wght@300;700&display=swap');
+body {
+    height: 120vh;
+    margin: 0;
+
+}
+
+.wrapper {
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    background: #fac593;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+ul {}
+
+li {
+    display: list-item;
+    list-style: none;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-right: 60px;
+    padding: 10px 75px;
+}
+
+li:hover {
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.toggle {
+    font-size: 25px;
+    color: #fac593;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
+
+header {
+    height: 500px;
+}
+
+h1,
+h2 {
+    font-family: 'Teko', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.masthead {
+    background: linear-gradient(180deg, rgba(200, 200, 255, 1), rgba(0, 175, 0, 0.1)), url('../img/wind.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    display: inline;
+    position: relative;
+    top: 10%;
+    margin-left: 550px;
+    color: white;
+    font-size: 80px;
+    
+}
+
+.buttons {
+    height: 400px;
+    background: white;
+}
+
+.center {
+    width: 20%;
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 75px 0;
+}
+
+.btns {
+    display: flex;
+    background: #fac593;
+    padding: 30px;
+    width: 300px;
+}
+
+button {
+    margin-top: 1%;
+    border-radius: 20%;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+}
+
+#active-button {
+    background: #fac593;
+    color: white;
+}
+
+p {
+
+    font-size: 0.75rem;
+   font-family: 'Alegreya Sans', sans-serif;
+}
+
+.bodyText,
+.main-image {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.main-image {
+    border-radius: 20px;
+}
+
+.tagline {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: black;
+    margin: 50px 0;
+}
+
+.contianer {
+
+    width: 100%;
+}
+
+p,h2 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+footer,
+hr {
+    clear: both;
+    
+}
+
+footer {
+    background: #fac593;
+    padding: 2em 0;
+    margin: 50px 0 0 0;
+}
+
+footer p {
+
+    color: white;
+}
+
+.social {
+    font-size: 30px;
+}
+.social a:hover {
+    color: green;
+}
+
+@media only screen and (min-width: 30rem) {
+    h1 {
+        left: 10%;
+        font-size: 80px;
+        font-family: 'Teko', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 40rem) {
+
+    p {
+        font-size: 1rem;
+    }
+    .nav {
+    font-family: 'Alegreya Sans', sans-serif;
+        padding: 0;
+        display: flex;
+    }
+
+    .toggle {
+        display: none;
+    }
+    .nav ul {
+        display: flex;
+    }
+    h1 {
+        font-family: 'Teko', sans-serif;
+        left: 10px;
+        font-size: 70px;
+        font-weight: 300;
+
+    }
+    li {
+        display: inline;
+        width: 40px;
+        margin: 0;
+    }
+    .tag-bg{
+    background: white;
+    position: relative;
+    width:  80%;
+    top: 10%;
+    left: 5%;
+    padding: 0.5em 2em;
+}
+
+    .center {
+        top: 20%;
+        left: 10%;
+        width: 60%;
+    }
+    button {
+        height: 110px;
+        width: 110px;
+    }
+    .buttons {
+        height: 200px;
+    }
+    .contianer {
+        width: 65%;
+    }
+
+
+}
+
+@media only screen and (min-width: 50rem) {
+    .wrapper {
+        width: 82%;
+        margin: 0 auto;
+    }
+    h1 {
+    font-family: 'Teko', sans-serif;
+        font-size: 60px;
+        left: 35.5%;
+    }
+    .nav li:first-child {
+        margin-left: 12%;
+    }
+    .main-image {
+        float: left;
+        margin-right: 2%;
+        width: 40%;
+    }
+    .tag-bg{
+        left: 7.5%;
+    }
+    .bodyText {
+        width: 50%;
+        float: left;
+    }
+    .center {
+        left: 15%;
+    }
+    button {}
+
+}
